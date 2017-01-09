@@ -1,1 +1,11 @@
-The Reversi application lets users play against an AI that uses the minimax algorithm with alpha-beta pruning.
+Reversi
+Reversi is a fun application that lets users play against an artificially intelligent opponent.
+
+How to Play
+Reversi uses a command line interface to let users make moves by choosing coordinates. Pieces on the board marked with an X are empty. 
+Players can make any move that surrounds the opponent's pieces vertically, horizontally, or diagonally. The game ends when one player
+has no possible moves left, and the winner is the player with the most pieces on the board.
+
+The AI
+The AI uses the minimax algorithm with alpha-beta pruning to choose moves. A heuristic function determines which moves have higher 
+fitness by counting the number of moves available. Moves in corners of the board are worth 10 times the fitness of other moves. 
