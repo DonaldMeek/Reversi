@@ -3,12 +3,12 @@ package Reversi;
 public class Move {
 	
 	private int[][] pos; // for positions on the board. This is a reference to Reversi.board.values
-	int [] xy;
-	boolean flipMode; // tells whether the function flips pieces after a user places a piece or simply searches for legal moves
+	private int [] xy;
+	private boolean flipMode; // tells whether the function flips pieces after a user places a piece or simply searches for legal moves
 	private boolean userMode;
-	boolean valid;
+	private boolean valid;
 	private PieceList buffer;
-	PieceNode piece;
+	private PieceNode piece;
 	private int flipXIndex;
 	private int flipYIndex;
 	private int playerTurn;
